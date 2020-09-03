@@ -19,15 +19,23 @@ public class Empregado{
         }
     }
 
+    public int getTipo(){
+        return tipo;
+    }
     public String getNome() {
         return nome;
     }
     public int getIdade() {
         return idade;
     }
+
+    public void setTipo(int tipo){
+        this.tipo = tipo;
+    }
     public void setIdade(int idade) {
         this.idade = idade;
-    }public void setNome(String nome) {
+    }
+    public void setNome(String nome) {
         this.nome = nome;
     }
 }
