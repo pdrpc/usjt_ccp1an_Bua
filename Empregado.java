@@ -19,6 +19,15 @@ public class Empregado{
         }
     }
 
+    public double getSalario() {
+        return salario;
+    }
+    public double getBonus() {
+        return bonus;
+    }
+    public double getComissao() {
+        return comissao;
+    }
     public int getTipo(){
         return tipo;
     }
@@ -37,5 +46,13 @@ public class Empregado{
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }public void setSalario(double salario) {
+        this.salario = salario;
     }
 }
